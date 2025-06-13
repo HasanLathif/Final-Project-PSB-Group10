@@ -7,6 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/160d1W37Ur7KVluz1iDiDZGj2WzILasRD
 """
 
+!pip install -q streamlit pyngrok tensorflow pandas Pillow
+
+import os
+import getpass
+from google.colab import drive
+from pyngrok import ngrok
+
 print("\n" + "="*80)
 print("PART 7: LAUNCHING THE INTERACTIVE GUI")
 print("="*80)
